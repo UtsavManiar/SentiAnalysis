@@ -1,0 +1,8 @@
+dj-database-url==0.4.2
+Django==1.10.5
+gunicorn==19.7.1
+nltk==3.2.2
+psycopg2==2.7.1
+tweepy==3.5.0
+whitenoise==3.3.0
+oauthlib==2.0.1

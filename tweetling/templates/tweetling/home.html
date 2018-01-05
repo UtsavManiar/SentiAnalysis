@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SentiAnalysis</title>
+  <meta charset="utf-8">
+  
+  <link rel="shortcut icon" type="image/png" href="/static/images/logo.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!--
+  <link rel="stylesheet" href="/static/css/main.css">-->
+  <style>
+body{
+    font-family: 'Open Sans', sans-serif;
+    'background-image:url('/static/img/bcg_slide1-1.jpg');	
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;	
+    height: 100%;
+    width: 100%;
+    }
+.animated { 
+           -webkit-animation-duration: 1s;
+            animation-duration: 1s; 
+            -webkit-animation-fill-mode: both; 
+            animation-fill-mode: both; 
+         }
+         
+         @-webkit-keyframes bounce { 
+            0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+            40% {-webkit-transform: translateY(-30px);} 
+            60% {-webkit-transform: translateY(-15px);} 
+         } 
+         
+         @keyframes bounce { 
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+            40% {transform: translateY(-30px);} 
+            60% {transform: translateY(-15px);} 
+         }
+         
+         .bounce:hover { 
+            -webkit-animation-name: bounce; 
+            animation-name: bounce; 
+         }
+.hsContent
+{
+ 
+ position:relative;
+    float:left;
+    bottom:-40px;
+    width:100%;
+    height:100px;
+ }
+.hsContent a:hover{
+        border:solid white 1px;
+        opacity:1;
+        }
+.hsContent a
+{
+    font-color:white;
+    opacity:.7;
+    background-color:Black;
+    display:inline-block;
+    border:1px solid black;
+    position:relative;
+    left:20%;
+    text-align:center;
+    top:5%;
+    font-size:2em;
+    width:400px;
+    padding:20px;
+    margin-right:20px;
+    text-decoration: none;
+}         
+
+</style>
+</head>
+<body>
+
+ <img src="/static/images/logo.png" id="animated-example" class="animated bounce" style="position:relative;float:left;left:35%;" width="400px" height="400px">
+    <div class="hsContent">
+        <a href="user"> Prediction On Input Text </a>
+        <a href="dynamic"> Prediction on Tweets  </a>
+    </div>
+
+<!-- Container element 
+<section id="slide-1" class="homeSlide">
+	        	<div class="bcg">
+		        	<div class="hsContainer">
+           <img src="/static/images/logo.png" id="animated-example" class="animated bounce" style="position:relative;float:left;left:35%;" width="350px" height="250px">
+			    		<div class="hsContent">
+       
+                       	    <a href="offline"> O F F L I N E </a>
+                                 <a href="online"> O N L I N E  </a>
+        		    		</div>
+		        	</div>
+	        	</div>
+		    </section>
+<!--			
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/static/js/imagesloaded.js"></script>
+<script src="/static/js/skrollr.js"></script>
+<script src="/static/js/_main.js"></script>
+<script src="/static/js/vendor/jquery-1.9.1.min.js"><\/script>'
+<!--
+
+<div class="parallax">
+<div class="container1" >
+    <div class="row">
+        <div class="round"> 
+            <a href="offline"> O F F L I N E </a>
+        </div>
+        <div class="round">
+            <a href="online"> O N L I N E </a>
+        </div>
+    </div>
+</div> 
+</div>-->
+</body>
+</html>
