@@ -16,10 +16,10 @@ file_path = os.path.join(module_dir, 'stopwords.txt')
 #import time
 #import json
 
-access_token = '816618292219617280-fmH0nBMf9Jn8ZHmMAQZeCn3POLFPS1g'
-access_token_secret = 'NMt4XexVeJxg0x7ChbmhpscwscJou2nP3SN63ol1ecqEH'
-consumer_key = 'atc5p6grjELWGXPzPAyfiuAro'
-consumer_secret = 'v7T4U3JILMaYjEeMoHWmBH8xmD80DBBB2k8xU14qZ7L1EtzvsE'
+access_token = 'xxxxxxxxxx'
+access_token_secret = 'xxxxxxxx'
+consumer_key = 'xxxxxxxxxxx'
+consumer_secret = 'xxxxxxxxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
